@@ -9,7 +9,7 @@ import { Resume } from '../components/resume/Resume';
 import { SocialIcons } from '../components/content/SocialIcons';
 import { SpeedDials } from '../components/speedDial/SpeedDial';
 import { SideNavbar } from '../components/nav/SideNavbar';
-import { Works } from '../components/works/Works';
+import { Projects } from '../components/projects/Projects';
 import { About } from '../components/about/About';
 import { Contact } from '../components/contact/Contact';
 
@@ -40,7 +40,7 @@ export const Home = () => {
         <Resume />
       </div>
       <SideNavbar />
-      <Works />
+      <Projects />
       <About />
       <Contact />
     </>

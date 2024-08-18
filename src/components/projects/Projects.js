@@ -5,13 +5,10 @@ import { Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { TextDecrypt } from "../content/TextDecrypt";
 
-import './Works.css';
-
-// Import ../../assets/recentprojects/
+import './Projects.css';
 import Portfolio from '../../assets/recentprojects/react-portfolio.png';
 import Veritru from '../../assets/recentprojects/veritru.png';
 import Lofo from '../../assets/recentprojects/lofo.png';
-import Startup from '../../assets/recentprojects/startup.png';
 import Lacalle from '../../assets/recentprojects/lacalle.png';
 
 const useStyles = makeStyles((theme) => ({
@@ -22,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export const Works = () => {
+export const Projects = () => {
   const classes = useStyles();
   const [projects, setProjects] = useState([
     { 
