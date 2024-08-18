@@ -1,15 +1,14 @@
 import React from "react";
 import { Typography } from "@material-ui/core";
 import { useState } from "react";
+import "./TopNavbar.css";  // We'll rename the CSS file
 
-import "./SideNavbar.css";
-
-export const SideNavbar = () => {
+export const TopNavbar = () => {  // Renamed from SideNavbar to TopNavbar
   const [activeNav, setActiveNav] = useState('#');
 
   return (
-    <nav>
-      <a href="#" 
+    <nav className="top-navbar"> 
+      <a href="#"
         onClick={() => setActiveNav('#')}
         className={activeNav === '#' ? 'active' : ''}
       >
@@ -25,7 +24,7 @@ export const SideNavbar = () => {
           Experience
         </Typography>
       </a>
-      <a href="#projects" 
+      <a href="#projects"
         onClick={() => setActiveNav('#projects')}
         className={activeNav === '#projects' ? 'active' : ''}
       >

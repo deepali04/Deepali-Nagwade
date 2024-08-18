@@ -1,0 +1,50 @@
+.experience-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.section-title {
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.experience-card {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.experience-title {
+  color: #ec704c;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.experience-subtitle {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.experience-duration {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.experience-details {
+  color: rgba(255, 255, 255, 0.9);
+  padding-left: 1.5rem;
+}
+
+.experience-details li {
+  margin-bottom: 0.5rem;
+}

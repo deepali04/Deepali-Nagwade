@@ -8,10 +8,12 @@ import { ThemeToggle } from '../components/theme/ThemeToggle';
 import { Resume } from '../components/resume/Resume';
 import { SocialIcons } from '../components/content/SocialIcons';
 import { SpeedDials } from '../components/speedDial/SpeedDial';
-import { SideNavbar } from '../components/nav/SideNavbar';
+import { TopNavbar } from '../components/nav/TopNavbar';
 import { Projects } from '../components/projects/Projects';
 import { About } from '../components/about/About';
 import { Contact } from '../components/contact/Contact';
+import { Experience } from '../components/experience/Experience';
+import { Education } from '../components/education/Education';
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -39,10 +41,11 @@ export const Home = () => {
         </Hidden>
         <Resume />
       </div>
-      <SideNavbar />
+      <TopNavbar />
       <About />
+      <Experience/>
       <Projects />
-
+      <Education/>
       <Contact />
     </>
   );

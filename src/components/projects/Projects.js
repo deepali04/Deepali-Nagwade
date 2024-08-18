@@ -67,7 +67,7 @@ export const Projects = () => {
   ]);
 
   return (
-    <section id="works">
+    <section id="projects">
       <Container component="main" className={classes.main} maxWidth="md">
         {projects.map((project) => (
           <div className="project" key={ project.id }>

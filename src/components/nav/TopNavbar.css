@@ -1,0 +1,25 @@
+.top-navbar {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  z-index: 1000; /* Ensures the navbar stays on top of other elements */
+}
+
+.top-navbar a {
+  margin-left: 20px; /* Changed from margin-right to margin-left */
+  text-decoration: none;
+  color: #575757;
+}
+
+.top-navbar a:hover {
+  color: #ec704c;
+}
+
+.top-navbar a.active {
+  color: #ec704c;
+}
