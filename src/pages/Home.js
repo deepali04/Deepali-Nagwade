@@ -1,16 +1,13 @@
 import React from 'react';
-import { LogoLink } from '../components/logo/LogoLink';
 import { Content } from '../components/content/Content';
 import { Hidden } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import DisplacementSphere from '../components/background/DisplacementSphere';
 import { ThemeToggle } from '../components/theme/ThemeToggle';
-import { Resume } from '../components/resume/Resume';
 import { SocialIcons } from '../components/content/SocialIcons';
 import { SpeedDials } from '../components/speedDial/SpeedDial';
 import { TopNavbar } from '../components/nav/TopNavbar';
 import { Projects } from '../components/projects/Projects';
-import { About } from '../components/about/About';
 import { Contact } from '../components/contact/Contact';
 import { Experience } from '../components/experience/Experience';
 import { Education } from '../components/education/Education';
@@ -28,9 +25,9 @@ export const Home = () => {
 
   return (
     <>
+      <TopNavbar />
       <div className={classes.root} id="home">
         <DisplacementSphere />
-        <LogoLink />
         <Content />
         <ThemeToggle />
         <Hidden smDown>
@@ -39,12 +36,10 @@ export const Home = () => {
         <Hidden mdUp>
           <SpeedDials />
         </Hidden>
-        <Resume />
       </div>
-      <TopNavbar />
-      <Experience/>
+      <Experience />
       <Projects />
-      <Education/>
+      <Education />
       <Contact />
     </>
   );
