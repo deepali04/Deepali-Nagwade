@@ -1,0 +1,123 @@
+{
+    "basics": {
+        "name": "Deepali Nagwade",
+        "label": "Software Developer",
+        "email": "deepali.nagwade04@gmail.com",
+        "phone": "(XXX) XXX-XXXX",
+        "picture": "",
+        "x_title": "Hello, I'm",
+        "job1": "Software Developer",
+        "description": "I am a passionate full-stack web developer based in New York City, wielding the power of React, Node.js, GraphQL, and APIs to transform ideas into reality. With four years of industry experience and the continuous learning journey of a master's student, I blend theoretical knowledge with practical skills to craft seamless, scalable, and engaging web solutions. Dive into my portfolio to explore how I navigate the complexities of web development to deliver projects that stand at the intersection of creativity and technology. Let's build the future, one line of code at a time.",
+        "summary": "based in New York City.",
+        "keywords": "personal,website,portfolio,template,kit,webdev,web,developer,nyc,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
+        "url": "https://deepali04.vercel.app/",
+        "location": {
+            "address": "XX XXXXXstreet",
+            "postalCode": "XXXXX",
+            "city": "New York City",
+            "country": "USA",
+            "countryCode": "USA",
+            "region": "North America"
+        },
+        "profiles": [
+            {
+                "network": "Google",
+                "username": "deepali.nagwade04@gmail.com",
+                "url": "mailto:deepali.nagwade04@gmail.com",
+                "x_icon": "fab fa-google"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "deepalinagwade",
+                "url": "https://www.linkedin.com/in/deepalinagwade/",
+                "x_icon": "fab fa-linkedin-in"
+            },
+            {
+                "network": "GitHub",
+                "username": "deepali04",
+                "url": "https://github.com/deepali04",
+                "x_icon": "fab fa-github"
+            },
+            {
+                "network": "Leetcode",
+                "username": "deepali_04",
+                "url": "https://leetcode.com/deepali_04/",
+                "x_icon": "fab fa-gitlab"
+            },
+            {
+                "network": "Discord",
+                "username": "deepali9503",
+                "url": "https://discord.com",
+                "x_icon": "fab fa-discord"
+            }
+        ]
+    },
+    "experience": [
+        {
+            "company": "PWI Works",
+            "position": "Software Developer",
+            "website": "http://company.com",
+            "startDate": "July 2024",
+            "endDate": "Present",
+            "summary": "Optimized SQL queries to access records of over 100k students and orchestrated automated email systems, boosting communication efficiency. Collaborated with 3 cross-functional teams to implement dynamic course content on the department’s website using React.js, improving UI Continuously enhanced website functionality by identifying root causes, bug fixes, testing and updating content, achieving 0 downtime"
+        },
+        {
+            "company": "Stevens Institute of Technology",
+            "position": "Web Development Assistant",
+            "website": "http://company.com",
+            "startDate": "Nov 2022",
+            "endDate": "May 2024",
+            "summary": "Optimized SQL queries to access records of over 100k students and orchestrated automated email systems, boosting communication efficiency. Collaborated with 3 cross-functional teams to implement dynamic course content on the department’s website using React.js, improving UI Continuously enhanced website functionality by identifying root causes, bug fixes, testing and updating content, achieving 0 downtime"
+        },
+        {
+            "company": "Anuta Networks",
+            "position": "Software Developer",
+            "website": "http://company.com",
+            "startDate": "July 2021",
+            "endDate": "July 2022",
+            "summary": "Worked on developing 3 different microservices in Node.js and created scalable, customer-focused APIs supporting millions of concurrent operations with minimal latency. Created user profile verification with OAuth integration to enhance authentication security.Engineered a robust DevOps CI/CD pipeline using Docker and Jenkins, improving deployment frequency by 40% and reducing failures. Proactively addressed 25+ potential hot issues by leveraging Agile practices like Scrum and Kanban. Conducted in-depth Root Cause Analyses for each issue, providing detailed documentation to ensure consistent resolution strategies and enhance operational stability Enhanced application performance by 10% with Amazon ElastiCache and AWS Lambda for serverless computing, reducing operational costs"
+        },
+        {
+            "company": "Infosys Ltd",
+            "position": "Senior Systems Engineer",
+            "website": "http://company.com",
+            "startDate": "June 2018",
+            "endDate": "July 2021",
+            "summary": "Reengineered a monolithic platform into a Spring Boot and React driven MVC architecture, enhancing System Modularity. Designed validation pipelines utilizing Python for data processing and comparison, achieving a 99% accuracy rate across 2M+ migrated records. Executed automation of maintenance tasks using Python and Shell scripts, accomplishing a 37% reduction in manual task handling. Analyzed user feedback at each SDLC phase, leading to UI/UX features improvements; increased user engagement by 40%. Leveraged AWS auto-scaling to optimize application resources and migrated the system from Oracle to DynamoDB, which resulted in a 20% reduction in database related delays hence improving system performance Lowered response times by 40% by building dashboards for monitoring production metrics using Grafana and PostgreSQL"
+        }
+    ],
+    "education": [
+        {
+            "institution": "Stevens Institute of Technology, New Jersey",
+            "area": "Computer Science",
+            "studyType": "Masters",
+            "startDate": "Sept 2022",
+            "endDate": "May 2024",
+            "gpa": "3.8",
+            "courses": ["Web Programming", "Software Design and Analysis", "Human Computer Interaction", "Data Mining"]
+        }
+    ],
+    "skills": [
+        {
+            "name": "Software Development",
+            "level": "Master",
+            "keywords": ["React", "Java", "Javascript", "Python"]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Hindi",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "English",
+            "fluency": "Fluent speaker"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Wildlife",
+            "keywords": ["Ferrets", "Unicorns"]
+        }
+    ]
+}
