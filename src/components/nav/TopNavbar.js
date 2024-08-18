@@ -1,13 +1,13 @@
 import React from "react";
 import { Typography } from "@material-ui/core";
 import { useState } from "react";
-import "./TopNavbar.css";  // We'll rename the CSS file
+import "./TopNavbar.css"; // Renamed back to SideNavbar.css
 
-export const TopNavbar = () => {  // Renamed from SideNavbar to TopNavbar
+export const TopNavbar = () => { // Renamed back to SideNavbar
   const [activeNav, setActiveNav] = useState('#');
 
   return (
-    <nav className="top-navbar"> 
+    <nav className="side-navbar">
       <a href="#"
         onClick={() => setActiveNav('#')}
         className={activeNav === '#' ? 'active' : ''}

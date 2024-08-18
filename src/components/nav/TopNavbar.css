@@ -1,25 +1,58 @@
-.top-navbar {
+.side-navbar {
   position: fixed;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   top: 0;
-  right: 0;
+  left: 0;
+  height: 100vh;
   padding: 1rem;
   z-index: 1000; /* Ensures the navbar stays on top of other elements */
+  background-color: rgba(18, 18, 18, 0.8); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Blur effect for a modern look */
 }
 
-.top-navbar a {
-  margin-left: 20px; /* Changed from margin-right to margin-left */
+.side-navbar a {
+  margin-bottom: 20px;
   text-decoration: none;
   color: #575757;
+  transition: color 0.3s ease;
 }
 
-.top-navbar a:hover {
+.side-navbar a:hover {
   color: #ec704c;
 }
 
-.top-navbar a.active {
+.side-navbar a.active {
   color: #ec704c;
+}
+
+/* Adjust main content to account for side navbar */
+main {
+  margin-left: 120px; /* Adjust based on your navbar width */
+  padding: 2rem;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .side-navbar {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    bottom: 0;
+    top: auto;
+    padding: 0.5rem;
+  }
+
+  .side-navbar a {
+    margin: 0 10px;
+  }
+
+  main {
+    margin-left: 0;
+    margin-bottom: 60px; /* Adjust based on your navbar height */
+  }
 }
