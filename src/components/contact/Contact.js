@@ -90,7 +90,7 @@ export const Contact = () => {
                   className={classes.formfield}
                 />
                 <button type="submit" value="Send" className="submit-btn">
-                <i className="fas fa-terminal"></i>
+                {/* <i className="fas fa-terminal"></i> */}
                   <Typography component='span'> Send Message</Typography>
                 </button>
               </form>

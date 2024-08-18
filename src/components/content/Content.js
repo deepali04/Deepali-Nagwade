@@ -34,7 +34,7 @@ export const Content = () => {
             <TextDecrypt text={`${FirstName} ${LastName}`} />
         </Typography>
         <Typography variant="h3" component="h3" className={classes.jobs}>
-            <TextDecrypt text={`${Resume.basics.job1}` +`  ${Resume.basics.job2}`} />
+            <TextDecrypt text={`${Resume.basics.job1}`} />
         </Typography>
       </div>
     </Container>
