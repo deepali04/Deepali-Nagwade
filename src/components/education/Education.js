@@ -1,19 +1,6 @@
 import React from "react";
 import './Education.css';
 
-// const EducationCard = ({ institution, studyType, course, duration, gpa, courses }) => (
-//   <div className="experience-card">
-//     <h3 className="experience-title">{institution}</h3>
-//     <h4 className="experience-subtitle">{`${studyType}, ${course} | GPA: ${gpa}`}</h4>
-//     <p className="experience-duration">{duration}</p>
-//     <ul className="experience-details">
-//       {courses.map((detail, index) => (
-//         <li key={index}>{detail}</li>
-//       ))}
-//     </ul>
-//   </div>
-// );
-
 const EducationCard = ({ institution, location, studyType, course, duration, gpa, courses }) => (
   <div className="experience-card">
     <div className="experience-header">
@@ -59,7 +46,7 @@ export const Education = () => {
   ];
 
   return (
-    <section className="experience-section">
+    <section id = "education" className="experience-section">
       <h2 className="section-title">Education</h2>
       <div className="experience-container">
         {educations.map((edu, index) => (

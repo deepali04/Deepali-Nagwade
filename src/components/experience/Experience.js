@@ -78,7 +78,7 @@ export const Experience = () => {
   ];
 
   return (
-    <section className="experience-section">
+    <section id = "experience" className="experience-section">
       <h2 className="section-title">Experience</h2>
       <div className="experience-container">
         {experiences.map((exp, index) => (

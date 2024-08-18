@@ -8,8 +8,7 @@
   left: 0;
   height: 100vh;
   padding: 1rem;
-  z-index: 1000; /* Ensures the navbar stays on top of other elements */
-  background-color: rgba(18, 18, 18, 0.8); /* Semi-transparent background */
+  
   backdrop-filter: blur(10px); /* Blur effect for a modern look */
 }
 
