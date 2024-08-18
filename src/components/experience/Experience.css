@@ -22,6 +22,21 @@
   padding: 1.5rem;
 }
 
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.experience-header-left {
+  flex: 1;
+}
+
+.experience-header-right {
+  text-align: right;
+}
+
 .experience-title {
   color: #ec704c;
   font-size: 1.5rem;
@@ -34,10 +49,10 @@
   margin-bottom: 0.5rem;
 }
 
+.experience-location,
 .experience-duration {
   color: rgba(255, 255, 255, 0.7);
   font-size: 1rem;
-  margin-bottom: 1rem;
 }
 
 .experience-details {

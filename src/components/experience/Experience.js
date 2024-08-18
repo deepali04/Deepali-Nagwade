@@ -1,14 +1,19 @@
 import React from "react";
-import { Typography, Card, CardContent } from '@material-ui/core';
-import { makeStyles } from "@material-ui/core/styles";
-import { TextDecrypt } from "../content/TextDecrypt";
 import './Experience.css';
 
-const ExperienceCard = ({ company, position, duration, summary }) => (
+
+const ExperienceCard = ({ company, position, location, duration, summary }) => (
   <div className="experience-card">
-    <h3 className="experience-title">{company}</h3>
-    <h4 className="experience-subtitle">{position}</h4>
-    <p className="experience-duration">{duration}</p>
+    <div className="experience-header">
+      <div className="experience-header-left">
+        <h3 className="experience-title">{company}</h3>
+        <h4 className="experience-subtitle">{position}</h4>
+      </div>
+      <div className="experience-header-right">
+        <p className="experience-location">{location}</p>
+        <p className="experience-duration">{duration}</p>
+      </div>
+    </div>
     <ul className="experience-details">
       {summary.map((detail, index) => (
         <li key={index}>{detail}</li>
@@ -23,8 +28,9 @@ export const Experience = () => {
   const experiences = [
     {
       "company": "PWI Works",
+      "location": "Indiana, United States",
       "position": "Software Developer",
-      "duration": "July 2024",
+      "duration": "July 2024 - Present",
       "summary": [
         "Optimized SQL queries to access records of over 100k students and orchestrated automated email systems, boosting communication efficiency.",
         "Collaborated with 3 cross-functional teams to implement dynamic course content on the department's website using React.js, improving UI.",
@@ -33,8 +39,9 @@ export const Experience = () => {
   },
   {
       "company": "Stevens Institute of Technology",
+      "location": "New Jersey, United States",
       "position": "Web Development Assistant",
-      "duration": "Nov 2022",
+      "duration": "Nov 2022 - May 2024",
       "summary": [
         "Optimized SQL queries to access records of over 100k students and orchestrated automated email systems, boosting communication efficiency.",
         "Collaborated with 3 cross-functional teams to implement dynamic course content on the department's website using React.js, improving UI.",
@@ -44,7 +51,8 @@ export const Experience = () => {
   {
       "company": "Anuta Networks",
       "position": "Software Developer",
-      "duration": "July 2021",
+      "location": "Bengaluru, India",
+      "duration": "July 2021 - July 2022",
       "summary": [
         "Worked on developing 3 different microservices in Node.js and created scalable, customer-focused APIs supporting millions of concurrent operations with minimal latency.",
         "Created user profile verification with OAuth integration to enhance authentication security.Engineered a robust DevOps CI/CD pipeline using Docker and Jenkins, improving deployment frequency by 40% and reducing failures",
@@ -56,7 +64,8 @@ export const Experience = () => {
   {
       "company": "Infosys Ltd",
       "position": "Senior Systems Engineer",
-      "duration": "June 2018",
+      "location": "Bengaluru, India",
+      "duration": "June 2018 - July 2021",
       "summary": [
         "Reengineered a monolithic platform into a Spring Boot and React driven MVC architecture, enhancing System Modularity.",
         "Designed validation pipelines utilizing Python for data processing and comparison, achieving a 99% accuracy rate across 2M+ migrated records",

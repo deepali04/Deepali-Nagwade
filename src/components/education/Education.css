@@ -1,88 +1,65 @@
-.education-container {
+.experience-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.section-title {
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.experience-container {
   display: flex;
   flex-direction: column;
-  width: 80%;
-  margin-left: 20rem;
-  margin-right: 10rem;
+  gap: 2rem;
 }
 
-.education {
-  margin-bottom: 3rem;
+.experience-card {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 1.5rem;
 }
 
-._form_wrapper {
+.experience-header {
   display: flex;
-  flex-direction: column;
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.51);
-  width: 28em;
-  padding: 2em;
-  background-color: rgba(255, 255, 255, 0.05);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
 }
 
-._form_wrapper:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 40px rgba(0, 0, 0, 0.15);
+.experience-header-left {
+  flex: 1;
 }
 
-._form_wrapper h3 {
-  margin-bottom: 0.5em;
-  color: #ec704c;  /* Accent color for school name */
+.experience-header-right {
+  text-align: right;
 }
 
-._form_wrapper h4 {
-  margin-bottom: 0.3em;
-  font-style: italic;
+.experience-title {
+  color: #ec704c;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
-._form_wrapper p {
-  margin-bottom: 0.5em;
+.experience-subtitle {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
 }
 
-.education_msg {
-  font-size: 4rem;
-  margin: 5rem;
-  position: fixed;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.experience-location,
+.experience-duration {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
 }
 
-@media (max-width: 1024px) {
-  .education-container {
-    width: 70%;
-    margin-left: 4em;
-    margin-right: 4em;
-  }
-
-  ._form_wrapper {
-    width: 100%;
-  }
-
-  .education_msg {
-    font-size: 3rem;
-    margin: 3rem;
-  }
+.experience-details {
+  color: rgba(255, 255, 255, 0.9);
+  padding-left: 1.5rem;
 }
 
-@media (max-width: 768px) {
-  .education-container {
-    width: 90%;
-    margin-left: 1em;
-    margin-right: 1em;
-  }
-
-  .education {
-    margin-bottom: 2rem;
-  }
-
-  .education_msg {
-    position: static;
-    font-size: 2rem;
-    margin: 2rem 0;
-    text-align: center;
-    transform: none;
-  }
+.experience-details li {
+  margin-bottom: 0.5rem;
 }
