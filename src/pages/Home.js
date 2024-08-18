@@ -42,7 +42,6 @@ export const Home = () => {
         <Resume />
       </div>
       <TopNavbar />
-      <About />
       <Experience/>
       <Projects />
       <Education/>
