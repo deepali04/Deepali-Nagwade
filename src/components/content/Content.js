@@ -4,7 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import { TextDecrypt } from "./TextDecrypt";
 import Resume from "../../settings/resume.json";
 import { FirstName, LastName } from "../../utils/getName";
-import profile from '../../assets/profile.jpeg';
+import profile from './../../assets/profile.jpeg';
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -12,51 +12,53 @@ const useStyles = makeStyles((theme) => ({
     marginTop: "auto",
     marginBottom: "auto",
     display: 'flex',
-    alignItems: 'center',
     justifyContent: 'center',
+    alignItems: 'center',
     minHeight: '100vh',
   },
   contentWrapper: {
     display: 'flex',
     alignItems: 'center',
-    gap: theme.spacing(6),
+    gap: theme.spacing(4),
+  },
+  textContent: {
+    display: 'flex',
+    flexDirection: 'column',
+  },
+  nameWrapper: {
+    display: 'flex',
+    alignItems: 'center',
+    gap: theme.spacing(4),
+  },
+  name: {
+    fontSize: '5rem',
     "@media (max-width: 768px)": {
-      flexDirection: 'column',
+      fontSize: '3.5rem',
     },
   },
+  job: {
+    fontSize: '2rem',
+    marginTop: theme.spacing(0.2), // Add some margin to push it up slightly
+    "@media (max-width: 768px)": {
+      fontSize: '1.5rem',
+    },
+  },  
+  about: {
+    fontSize: '1rem',
+    maxWidth: '500px',
+    marginTop: theme.spacing(2),
+  },
   imageWrapper: {
-    width: '300px',
-    height: '400px',
-    flexShrink: 0,
-    border: '1px solid rgba(255, 255, 255, 0.1)',
-    borderRadius: '10px',
+    width: '150px',
+    height: '150px',
+    borderRadius: '50%',
     overflow: 'hidden',
+    flexShrink: 0,
   },
   image: {
     width: '100%',
     height: '100%',
     objectFit: 'cover',
-  },
-  textContent: {
-    display: 'flex',
-    flexDirection: 'column',
-    gap: theme.spacing(2),
-  },
-  name: {
-    fontSize: '4rem',
-    "@media (max-width: 768px)": {
-      fontSize: '3rem',
-    },
-  },
-  job: {
-    fontSize: '2rem',
-    "@media (max-width: 768px)": {
-      fontSize: '1.5rem',
-    },
-  },
-  about: {
-    fontSize: '1rem',
-    maxWidth: '500px',
   },
 }));
 
@@ -66,18 +68,17 @@ export const Content = () => {
   return (
     <Container component="main" className={classes.main} maxWidth="md">
       <Box className={classes.contentWrapper}>
-        <Box className={classes.imageWrapper}>
-          <img src={profile} alt="Profile" className={classes.image} />
-        </Box>
         <Box className={classes.textContent}>
-          <Typography variant="h1" component="h1" className={classes.name}>
-            <TextDecrypt text={`${FirstName} ${LastName}`} />
-          </Typography>
+          <Box className={classes.nameWrapper}>
+            <Typography variant="h1" component="h1" className={classes.name}>
+              <TextDecrypt text={`${FirstName} ${LastName}`} />
+            </Typography>
+            <Box className={classes.imageWrapper}>
+              <img src={profile} alt="Profile" className={classes.image} />
+            </Box>
+          </Box>
           <Typography variant="h2" component="h2" className={classes.job}>
-            <TextDecrypt text={`${Resume.basics.job1}`} />
-          </Typography>
-          <Typography variant="body1" component="p" className={classes.about}>
-            {Resume.basics.summary || "A brief description about yourself goes here. You can customize this in your resume.json file."}
+            <TextDecrypt text={`I am a ${Resume.basics.job1}`} />
           </Typography>
         </Box>
       </Box>
