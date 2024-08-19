@@ -3,6 +3,10 @@ import { Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import './Projects.css';
 import goalGlobe from '../../assets/projects/goalGlobe.jpeg';
+import callRouting from '../../assets/projects/callrouting.jpeg';
+import efficientSearch from '../../assets/projects/efficientSearch.jpeg';
+import trivia from '../../assets/projects/trivia.jpeg';
+import yasmp from '../../assets/projects/yasmp.jpeg';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -37,37 +41,37 @@ export const Projects = () => {
       title: 'All Football',
       description: `All Football is a European football live score website provides all the real-time updates on all the latest football matches and scores across the continent. You can also interact with people.`,
       image: goalGlobe,
-      link: "https://example.com/all-football"
+      link: "https://github.com/deepali04/AllFootball"
     },
     {
       title: 'YASMP: Yet Another Social Media Platform',
       description: `YASMP is React based Instagram clone that lets users establish their profile and publish their content in many genres, allowing them to share posts and interact with a group of like-minded individuals.`,
-      image: '',
-      link: "https://example.com/yasmp"
+      image: yasmp,
+      link: "https://github.com/deepali04/YASMP"
     },
     {
-      title: 'All Football',
-      description: `All Football is a European football live score website provides all the real-time updates on all the latest football matches and scores across the continent. You can also interact with people.`,
-      image: goalGlobe,
-      link: "https://example.com/all-football"
+      title: 'Efficient Search Engine',
+      description: `This project develops an efficient search engine designed to provide relevant search results. Leveraging advanced algorithms, it indexes web content meticulously, prioritizes high-quality information, and optimizes responses to user queries, offering an unparalleled browsing experience.`,
+      image: efficientSearch,
+      link: "https://github.com/deepali04/Efficient-Search-Engine"
     },
     {
-      title: 'All Football',
-      description: `All Football is a European football live score website provides all the real-time updates on all the latest football matches and scores across the continent. You can also interact with people.`,
+      title: 'AURA: Australian Rainfall Prediction',
+      description: `This project employs applying data analysis techniques on weather observation data to accurately predict the occurrence of rainfall in Australia, delineating predictions into binary outcomes: '1' indicating the anticipation of rain, and '0' signifying dry conditions.`,
       image: goalGlobe,
-      link: "https://example.com/all-football"
+      link: "https://github.com/deepali04/AustralianRainfallPrediction"
     },
     {
-      title: 'All Football',
-      description: `All Football is a European football live score website provides all the real-time updates on all the latest football matches and scores across the continent. You can also interact with people.`,
-      image: goalGlobe,
-      link: "https://example.com/all-football"
+      title: 'Automated-Call-Routing-System',
+      description: `A simplified version of mobile phone tracking system was implemented to handle queries for adding mobile phones over local exchange areas, changing their location and finding lowest routing path to establish a connection between two mobile phones.`,
+      image: callRouting,
+      link: "https://github.com/deepali04/Automated-Call-Routing-System"
     },
     {
-      title: 'All Football',
-      description: `All Football is a European football live score website provides all the real-time updates on all the latest football matches and scores across the continent. You can also interact with people.`,
-      image: goalGlobe,
-      link: "https://example.com/all-football"
+      title: 'Trivia Pulse: A Quiz website',
+      description: `This platform has been meticulously crafted to provide users with an engaging and intellectually stimulating experience. Whether you're a quiz enthusiast or just looking for a unique way to challenge yourself, our trivia website offers a diverse range of categories and features`,
+      image: trivia,
+      link: "https://github.com/deepali04/Trivia-Pulse"
     }
     // ... other projects ...
   ];
@@ -75,7 +79,7 @@ export const Projects = () => {
   return (
     <section id="projects" className="projects-section">
       <Container component="main" className={classes.main}>
-        <h2 className="section-title">Projects</h2>
+        <h2 className="section-title"> Personal Projects</h2>
         <div className="projects-container">
           {projects.map((project) => (
             <ProjectCard key={project.id} {...project} />
