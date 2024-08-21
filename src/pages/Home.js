@@ -11,6 +11,7 @@ import { Projects } from '../components/projects/Projects';
 import { Contact } from '../components/contact/Contact';
 import { Experience } from '../components/experience/Experience';
 import { Education } from '../components/education/Education';
+import { Certifications } from  '../components/certifications/Certifications';
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -38,8 +39,9 @@ export const Home = () => {
         </Hidden>
       </div>
       <Experience />
-      <Projects />
       <Education />
+      <Projects />
+      <Certifications />
       <Contact />
     </>
   );
