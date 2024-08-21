@@ -1,0 +1,101 @@
+.certifications-section {
+    padding: 50px 0;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #ffffff; /* Keep the text color white to contrast with the dark background */
+  }
+  
+  .certifications-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+  }
+  
+  .certification-card {
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Subtle border for contrast */
+    padding: 25px;
+    transition: transform 0.3s ease;
+    flex: 1 1 calc(33.333% - 2rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .certification-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .certification-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .certification-title {
+    font-size: 1.5rem;
+    color: #ec704c; /* Matches the color used in your project titles */
+    margin: 0 0 5px 0;
+    text-align: center;
+  }
+  
+  .certification-subtitle {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.8); /* Light text color */
+    margin: 0;
+    text-align: center;
+  }
+  
+  .certification-date {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.6); /* Slightly lighter date color */
+    margin-top: 10px;
+  }
+  
+  .certification-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .certification-image {
+    max-width: 120px;
+    max-height: 80px;
+    object-fit: contain;
+    margin-bottom: 15px;
+  }
+  
+  .certification-link {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #ec704c; /* Accent color for buttons */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .certification-link:hover {
+    background-color: #ec704c; /* Same hover effect as in the project section */
+  }
+  
+  @media (max-width: 768px) {
+    .certification-card {
+      flex: 1 1 100%;
+    }
+    
+    .certification-header {
+      align-items: flex-start;
+    }
+  }
+  
