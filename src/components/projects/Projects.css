@@ -59,18 +59,30 @@
   text-align: center;
 }
 
-.view-project-btn {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  background-color: #ec704c;
-  color: #ffffff;
+.submit-btn {
+  margin-right: 20px;
   text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-  margin-top: 1rem;
-  text-align: center;
+  color: #ffff;
+  background-color: #0a0a0a;
+  padding: 10px;
+  border-radius: 10px;
+}
+.submit-btn:hover {
+  margin-right: 20px;
+  text-decoration: none;
+  background-color: #ec704c;
+}
+.view-project-btn {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #ffff;
+  background-color: #0a0a0a;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .view-project-btn:hover {
-  background-color: #d75f3d;
+  margin-right: 20px;
+  text-decoration: none;
+  background-color: #ec704c;
 }
