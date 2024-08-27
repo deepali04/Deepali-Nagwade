@@ -2,6 +2,7 @@ import React from "react";
 import { Typography } from "@material-ui/core";
 import { useState } from "react";
 import "./TopNavbar.css"; // Renamed back to SideNavbar.css
+import ResumePDF from './../../assets/Deepali_Nagwade_SDE.pdf';
 
 export const TopNavbar = () => { // Renamed back to SideNavbar
   const [activeNav, setActiveNav] = useState('#');
@@ -48,9 +49,10 @@ export const TopNavbar = () => { // Renamed back to SideNavbar
           Contact
         </Typography>
       </a>
-      <a href="#contact"
-        onClick={() => setActiveNav('#contact')}
-        className={activeNav === '#contact' ? 'active' : ''}
+      <a 
+          href={ResumePDF} 
+          target="_blank" 
+          rel="noopener noreferrer" 
       >
         <Typography>
           Resume
