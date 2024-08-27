@@ -3,7 +3,7 @@ import { Container, Typography, TextField } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { TextDecrypt } from "../content/TextDecrypt";
 import Swal from 'sweetalert2';
-import ResumePDF from './../../assets/Deepali Nagwade Resume - SDE.pdf';
+import ResumePDF from './../../assets/Deepali_Nagwade_SDE.pdf';
 import emailjs from '@emailjs/browser';
 import './Contact.css';
 

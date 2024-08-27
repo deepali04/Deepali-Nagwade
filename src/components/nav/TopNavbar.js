@@ -48,6 +48,14 @@ export const TopNavbar = () => { // Renamed back to SideNavbar
           Contact
         </Typography>
       </a>
+      <a href="#contact"
+        onClick={() => setActiveNav('#contact')}
+        className={activeNav === '#contact' ? 'active' : ''}
+      >
+        <Typography>
+          Resume
+        </Typography>
+      </a>
     </nav>
   );
 };
