@@ -32,9 +32,9 @@ export const Experience = () => {
       "position": "Software Developer",
       "duration": "July 2024 - Present",
       "summary": [
-        "Optimized SQL queries to access records of over 100k students and orchestrated automated email systems, boosting communication efficiency.",
-        "Collaborated with 3 cross-functional teams to implement dynamic course content on the department's website using React.js, improving UI.",
-        "Continuously enhanced website functionality by identifying root causes, bug fixes, testing and updating content, achieving 0 downtime."
+        "Developing a Vacations app with Flutter, Dart, and Firebase, centralizing leave management, eliminate reliance on external systems, and automating payroll for 200+ employees, saving HR 15+ hours monthly",
+        "Utilizing Firebase and GCP services like Cloud Run, Pub/Sub, Firestore, and Cloud Functions to drive real-time scalability, automate workflows, and manage secure data processing in the leave management system"
+       
       ]
   },
   {
@@ -54,25 +54,22 @@ export const Experience = () => {
       "location": "Bengaluru, India",
       "duration": "July 2021 - July 2022",
       "summary": [
-        "Worked on developing 3 different microservices in Node.js and created scalable, customer-focused APIs supporting millions of concurrent operations with minimal latency.",
-        "Created user profile verification with OAuth integration to enhance authentication security.Engineered a robust DevOps CI/CD pipeline using Docker and Jenkins, improving deployment frequency by 40% and reducing failures",
-        "Continuously enhanced website functionality by identifying root causes, bug fixes, testing and updating content, achieving 0 downtime.",
-        "Proactively addressed 25+ potential hot issues by leveraging Agile practices like Scrum and Kanban",
-        "Conducted in-depth Root Cause Analyses for each issue, providing detailed documentation to ensure consistent resolution strategies and enhance operational stability Enhanced application performance by 10% with Amazon ElastiCache and AWS Lambda for serverless computing, reducing operational costs"
+        "Developed device management microservice in Node.js for a network orchestration system and created scalable, customer- focused APIs supporting millions of concurrent operations with minimal latency",
+        "Designed and implemented a robust CI/CD pipeline with Docker and Jenkins, increasing deployment frequency while reducing failure rates through automated testing and seamless rollbacks",
+        "Optimized the network orchestration system using AWS services like ElastiCache, Lambda, and CloudWatch, enhancing performance by 10% through faster data caching, automated scaling, and proactive monitoring for reduced latency"
       ]
   },
   {
-      "company": "Infosys Ltd",
+      "company": "Infosys Ltd.",
       "position": "Senior Systems Engineer",
       "location": "Bengaluru, India",
       "duration": "June 2018 - July 2021",
       "summary": [
-        "Reengineered a monolithic platform into a Spring Boot and React driven MVC architecture, enhancing System Modularity.",
-        "Designed validation pipelines utilizing Python for data processing and comparison, achieving a 99% accuracy rate across 2M+ migrated records",
-        "Executed automation of maintenance tasks using Python and Shell scripts, accomplishing a 37% reduction in manual task handling. Analyzed user feedback at each SDLC phase, leading to UI/UX features improvements; increased user engagement by 40%",
-        "Proactively addressed 25+ potential hot issues by leveraging Agile practices like Scrum and Kanban",
-        "Conducted in-depth Root Cause Analyses for each issue, providing detailed documentation to ensure consistent resolution strategies and enhance operational stability Enhanced application performance by 10% with Amazon ElastiCache and AWS Lambda for serverless computing, reducing operational costs",
-        "Leveraged AWS auto-scaling to optimize application resources and migrated the system from Oracle to DynamoDB, which resulted in a 20% reduction in database related delays hence improving system performance Lowered response times by 40% by building dashboards for monitoring production metrics using Grafana and PostgreSQL"
+        "Migrated a monolithic platform into a Spring Boot and React driven MVC architecture, enhancing System Modularity",
+        "Designed and implemented robust data migration pipelines using Python, ensuring 99% accuracy across 2M+ product and customer records during the transition",
+        "Analyzed user feedback during the SDLC, leading to UI/UX enhancements that boosted user engagement by 27% across the e-commerce platform",
+        "Leveraged AWS auto-scaling to optimize application resources and migrated the system from Oracle to DynamoDB, which resulted in a 20% reduction in database related delays hence improving system performance",
+        "Optimized product search using Solr, and integrated the ELK stack for real-time log analysis and monitoring, enhancing operational efficiency and accelerating issue resolution by 32% for production support team"
       ]
   }
   ];
