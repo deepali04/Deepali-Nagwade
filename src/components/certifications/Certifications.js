@@ -24,7 +24,7 @@ const CertificationCard = ({ name, issuer, date, imageUrl, link }) => (
 export const Certifications = () => {
   const certifications = [
     {
-      name: "SQL Develoepr Intermediate",
+      name: "SQL Developer Intermediate",
       issuer: "HackerRank",
       imageUrl: hackerrank,
       link: "https://www.hackerrank.com/certificates/c81c1dba21e0"

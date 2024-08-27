@@ -75,19 +75,21 @@
   }
   
   .certification-link {
-    display: inline-block;
-    padding: 8px 15px;
-    background-color: #ec704c; /* Accent color for buttons */
-    color: #ffffff;
+    margin-right: 20px;
     text-decoration: none;
-    border-radius: 5px;
-    font-size: 0.9rem;
-    transition: background-color 0.3s ease;
+    color: #ffff;
+    background-color: #0a0a0a;
+    padding: 10px;
+    border-radius: 10px;
   }
   
   .certification-link:hover {
-    background-color: #ec704c; /* Same hover effect as in the project section */
+    margin-right: 20px;
+  text-decoration: none;
+  background-color: #ec704c;
   }
+
+
   
   @media (max-width: 768px) {
     .certification-card {
