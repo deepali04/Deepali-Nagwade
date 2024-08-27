@@ -7,6 +7,7 @@ import callRouting from '../../assets/projects/callrouting.jpeg';
 import efficientSearch from '../../assets/projects/efficientSearch.jpeg';
 import trivia from '../../assets/projects/trivia.jpeg';
 import yasmp from '../../assets/projects/yasmp.jpeg';
+import aura from '../../assets/projects/aura.jpeg';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -58,7 +59,7 @@ export const Projects = () => {
     {
       title: 'AURA: Australian Rainfall Prediction',
       description: `This project employs applying data analysis techniques on weather observation data to accurately predict the occurrence of rainfall in Australia, delineating predictions into binary outcomes: '1' indicating the anticipation of rain, and '0' signifying dry conditions.`,
-      image: goalGlobe,
+      image: aura,
       link: "https://github.com/deepali04/AustralianRainfallPrediction"
     },
     {

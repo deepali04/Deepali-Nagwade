@@ -42,16 +42,16 @@ export const Certifications = () => {
       link: "https://www.udemy.com/certificate/UC-e4e365cb-6f6f-4dcf-967e-eaa69c58f5a4/"
     },
     {
-      name: "Nodejs Developer Associate",
-      issuer: "Hackerrank",
-      imageUrl: hackerrank,
-      link: "https://www.hackerrank.com/certificates/6f19988cd6df"
-    },
-    {
       name: "Introduction to Front-end Development",
       issuer: "Meta",
       imageUrl: meta,
       link: "https://www.coursera.org/account/accomplishments/certificate/SH7QY897FZZG"
+    },
+    {
+      name: "Nodejs Developer Associate",
+      issuer: "Hackerrank",
+      imageUrl: hackerrank,
+      link: "https://www.hackerrank.com/certificates/6f19988cd6df"
     },
     {
       name: "Software Design Patterns",
