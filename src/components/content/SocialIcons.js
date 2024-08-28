@@ -18,6 +18,10 @@ const useStyles = makeStyles((theme) => ({
   icon: {
     fontSize: '1.25rem',
   },
+  customIcon: {
+    height: '1.25rem',
+    width: '1.25rem',
+  }
 }));
 
 export const SocialIcons = () => {
@@ -42,7 +46,11 @@ export const SocialIcons = () => {
           aria-label={socialItem.network}
           className={classes.iconButton}
         >
-          <i className={`${classes.icon} ${socialItem.x_icon}`}></i>
+          {socialItem.x_icon.includes('fa-') ? (
+            <i className={`${classes.icon} ${socialItem.x_icon}`}></i>
+          ) : (
+            <img src={socialItem.x_icon} alt={socialItem.network} className={classes.customIcon} />
+          )}
         </IconButton>
       </Tooltip>
     </Link>

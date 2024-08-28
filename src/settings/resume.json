@@ -42,12 +42,12 @@
                 "network": "Leetcode",
                 "username": "deepali_04",
                 "url": "https://leetcode.com/deepali_04/",
-                "x_icon": "fab fa-gitlab"
+                "x_icon": "/leetcode.png"
             },
             {
                 "network": "Discord",
                 "username": "deepali9503",
-                "url": "https://discord.com",
+                "url": "https://discord.com/deepali9503",
                 "x_icon": "fab fa-discord"
             }
         ]
