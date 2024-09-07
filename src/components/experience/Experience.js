@@ -54,7 +54,7 @@ export const Experience = () => {
       "location": "Bengaluru, India",
       "duration": "July 2021 - July 2022",
       "summary": [
-        "Developed device management microservice in Node.js for a network orchestration system and created scalable, customer- focused APIs supporting millions of concurrent operations with minimal latency",
+        "Developed device management microservice in Node.js for a network orchestration system and created scalable, customer-focused APIs supporting millions of concurrent operations with minimal latency",
         "Designed and implemented a robust CI/CD pipeline with Docker and Jenkins, increasing deployment frequency while reducing failure rates through automated testing and seamless rollbacks",
         "Optimized the network orchestration system using AWS services like ElastiCache, Lambda, and CloudWatch, enhancing performance by 10% through faster data caching, automated scaling, and proactive monitoring for reduced latency"
       ]

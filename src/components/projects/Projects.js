@@ -8,6 +8,7 @@ import efficientSearch from '../../assets/projects/efficientSearch.jpeg';
 import trivia from '../../assets/projects/trivia.jpeg';
 import yasmp from '../../assets/projects/yasmp.jpeg';
 import aura from '../../assets/projects/aura.jpeg';
+import streaming from '../../assets/projects/streaming.jpeg'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -39,6 +40,12 @@ export const Projects = () => {
   const classes = useStyles();
   const projects = [
     {
+      title: 'Streamlytics: Content Streaming and Analytics',
+      description: `Developed a Netflix-like content streaming platform on AWS using Spring Boot and GraphQL, tested with simulated traffic to handle real-time personalized recommendations and process 1M+ user interactions daily. Leveraged Apache Kafka for streaming and AWS Lambda for automated content ingestion, achieving 40% faster content delivery`,
+      image: streaming,
+      link: "https://github.com/deepali04/AllFootball"
+    },
+    {
       title: 'All Football',
       description: `All Football is a European football live score website provides all the real-time updates on all the latest football matches and scores across the continent. You can also interact with people.`,
       image: goalGlobe,
@@ -52,13 +59,13 @@ export const Projects = () => {
     },
     {
       title: 'Efficient Search Engine',
-      description: `This project develops an efficient search engine designed to provide relevant search results. Leveraging advanced algorithms, it indexes web content meticulously, prioritizes high-quality information, and optimizes responses to user queries, offering an unparalleled browsing experience.`,
+      description: `The project develops an efficient search engine designed to provide relevant search results. Leveraging advanced algorithms, it indexes web content meticulously, prioritizes high-quality information, and optimizes responses to user queries, offering an unparalleled browsing experience.`,
       image: efficientSearch,
       link: "https://github.com/deepali04/Efficient-Search-Engine"
     },
     {
       title: 'AURA: Australian Rainfall Prediction',
-      description: `This project employs applying data analysis techniques on weather observation data to accurately predict the occurrence of rainfall in Australia, delineating predictions into binary outcomes: '1' indicating the anticipation of rain, and '0' signifying dry conditions.`,
+      description: `The project employs applying data analysis techniques on weather observation data to accurately predict the occurrence of rainfall in Australia, delineating predictions into binary outcomes: '1' indicating the anticipation of rain, and '0' signifying dry conditions.`,
       image: aura,
       link: "https://github.com/deepali04/AustralianRainfallPrediction"
     },
