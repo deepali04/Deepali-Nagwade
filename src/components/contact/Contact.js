@@ -1,9 +1,8 @@
 import React, { useRef } from "react";
 import { Container, Typography, TextField } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import { TextDecrypt } from "../content/TextDecrypt";
 import Swal from 'sweetalert2';
-import ResumePDF from './../../assets/Deepali_Nagwade_SDE.pdf';
+import ResumePDF from './../../assets/Deepali-Nagwade-Resume.pdf';
 import emailjs from '@emailjs/browser';
 import './Contact.css';
 
@@ -94,7 +93,7 @@ export const Contact = () => {
             </form>
           </div>
           <h3 className="contact_msg">
-            <TextDecrypt text={greetings}/>
+            {greetings}
           </h3>
         </div>
       </Container>

@@ -2,7 +2,7 @@ import React from "react";
 import { Typography } from "@material-ui/core";
 import { useState } from "react";
 import "./TopNavbar.css"; // Renamed back to SideNavbar.css
-import ResumePDF from './../../assets/Deepali_Nagwade_SDE.pdf';
+import ResumePDF from './../../assets/Deepali-Nagwade-Resume.pdf';
 
 export const TopNavbar = () => { // Renamed back to SideNavbar
   const [activeNav, setActiveNav] = useState('#');
