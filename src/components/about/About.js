@@ -29,15 +29,15 @@ export const About = () => {
           <div className="_img"
             style={{ 
               background: "url(" + profile + ")",
-              backgroundSize: 'contain',
+              backgroundSize: 'contain', 
               backgroundPosition: 'center',
               backgroundRepeat: 'no-repeat',
             }}
           >
           </div>
           <div className="_content_wrapper">
-            <Typography component='h2' variant="h5">
-              <TextDecrypt text={`${greetings}`} />
+            <Typography component='h3' variant="h6">
+              {greetings}
             </Typography>
             <p className="aboutme">
               {aboutme}

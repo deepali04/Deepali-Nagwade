@@ -25,20 +25,20 @@ export const TopNavbar = () => { // Renamed back to SideNavbar
           Experience
         </Typography>
       </a>
-      <a href="#projects"
-        onClick={() => setActiveNav('#projects')}
-        className={activeNav === '#projects' ? 'active' : ''}
-      >
-        <Typography>
-          Projects
-        </Typography>
-      </a>
       <a href="#education"
         onClick={() => setActiveNav('#education')}
         className={activeNav === '#education' ? 'active' : ''}
       >
         <Typography>
           Education
+        </Typography>
+      </a>
+      <a href="#projects"
+        onClick={() => setActiveNav('#projects')}
+        className={activeNav === '#projects' ? 'active' : ''}
+      >
+        <Typography>
+          Projects
         </Typography>
       </a>
       <a href="#contact"
